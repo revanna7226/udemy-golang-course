@@ -36,3 +36,13 @@ Click on File from the diagrams.net menu.
 Select Open From Device and use the file explorer to select the diagram file from your computer.
 
 Note - Please understand, if a diagram or group of diagrams is missing, this means that we no longer have them to share. You'll need to use a good screenshot browser extension to make a copy from the video lecture.
+
+## Gopls, undeclared name, type and module errors in VSCode
+
+As you progress through this course, you may notice some red underlining, undeclared name, or, type errors in your VSCode editor along with the following:
+
+## gopls was not able to find modules in your workspace.
+
+This can happen if you have loaded a directory that contains multiple Go projects into your editor workspace. The simplest solution to resolve these errors would be to instead open only the single Go project directory you are currently working on in the editor. None of our projects are dependencies of another project or module, so, setting up a multi-module workspace would not be necessary.
+
+You will notice that in the video lectures, we purposefully only open a single project at a time in our editor to avoid this issue.
